@@ -1,0 +1,68 @@
+[
+  {
+    "id": 0,
+    "image": "./images/project1/logo.png",
+    "projectImage": "./images/dopefolio.jpg",
+    "title": " TrailBlaze Brand Guideline & Retail Installation",
+    "description": "The Retail Installation showcases TrailBlaze's quality with motion graphics, interactive catalogs, and touchscreen kiosks, offering a stylish experience for outdoor adventurers.",
+    "longDescription":"<h2>PROJECT OVERVIEW</h2><p> TrailBlaze Outdoors is a brand that deeply resonates with dynamic urban professionals who lead an active outdoor lifestyle. Representing the seamless blend of adventure and elegance, TrailBlaze caters to well-educated, environmentally conscious individuals aged 23 to 38. Enthusiasts of TrailBlaze Outdoors are dedicated to outdoor pursuits such as hiking, walking, and biking, often immersing themselves in the natural world multiple times a week. Annually, they embark on at least one extended adventure in remote provincial parks, seeking the serenity and beauty of untouched landscapes. The brand's apparel and gear effortlessly marry sophistication with practicality, meticulously designed to withstand the rigors of local and remote wilderness alike. With an aesthetic that seamlessly merges athletic allure with urban sophistication, TrailBlaze Outdoors appeals to a devoted clientele that prizes top-notch, resilient outdoor equipment. This equipment not only complements their active and health-conscious lifestyle but also fulfills their aspiration to explore the great outdoors with panache.<br><br>The Retail Installation showcases a plethora of features and unique experiences, meticulously crafted through extensive dedication and time. To activate four captivating promotional motion graphic videos on a sizable screen, a QR code must be scanned. Furthermore, three supplementary stations are available: an interactive catalog, a revolving product exhibit, and a touchscreen ordering kiosk. Each of these stations boasts motion graphics screensavers designed to engage customers, along with clear instructions on how to utilize them.</p><br><hr><br><h2>Interactive Catalogue Installation</h2><P>The interactive catalog station features a dynamic interface showcasing products with concise information. Instructional animations guide users through operations. When a product is lifted, a light sensor activates a catalog-style display. Specific details are accessed via an overhead button near the product's original spot. This innovative design boosts engagement, forging stronger connections between users, products, and affiliated stores.</P><br><hr><br><h2>Rotating Product Station</h2><P>The rotating product station is an interactive display featuring stylish products and succinct product details. Customers engage with the station using a gesture controller, swiping to rotate the product. A vertical hand gesture grants access to detailed product highlights, offering comprehensive information. This innovative station utilizes modern gesture technology to sustain user interest and enthusiasm, offering a top-tier shopping experience. By integrating technology with product presentation, it effectively captivates and educates customers.</p> <br><hr><br><h2>Touchscreen Ordering Station</h2><p>The interactive catalog station presents an animated interface featuring prominently displayed products and brief details about their collections. It utilizes instructional animations to guide users through operational procedures. When a user lifts a product, a light sensor on the tabletop triggers a catalog-style presentation. Specific information can be accessed by interacting with an overhead button near the product's original position. This innovative method elevates user engagement and cultivates a deeper connection between individuals, showcased products, and affiliated stores.</p><br><hr><br><h2>Motion Graphics Video</h2><p>This is an engaging experience that combines three promotional videos into one, showcasing the brand and its main products available in-store. The video is on a continuous loop and is designed to capture the potential customer's attention and encourage them to try the other stations. It features a real-life user interacting with the products. This video can be projected onto a surface using a short-throw projector, which requires less space. Another feature of this station is the QR code scanning. It is an interactive experience that allows the user to scan one of three QR codes to watch a corresponding video. Prior to scanning any codes, a simple branding video will be displayed continuously.</p>",
+    "technologiesUsed": ["PHOTOSHOP", "ILLUSTRATOR", "AFTER EFFECTS", "HTML5", "CSS3", "JAVASCRIPT"],
+    "LinkName": "BRAND BOOK",
+    "liveVersionLink": "./imp_assits/brandBook.pdf"
+  },
+  {
+    "id": 1,
+    "image": "../images/SVG/Asset2.svg",
+    "projectImage": "./images/dopefolio.jpg",
+    "title": "Card 2 Title",
+    "description": "Card 2 Description",
+    "longDescription":"<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae minus ipsum, a ea soluta non eveniet voluptate porro, debitis eaque numquam, excepturi qui optio accusamus provident consequatur. Eius, error amet.<br><br>Tenetur, molestias? Corporis doloremque atque, aliquid sed enim quaerat veritatis, laboriosam accusamus rerum esse aperiam officiis quia ipsa error vitae veniam id? Mollitia minus accusantium voluptas aliquid fugiat modi reprehenderit!<br><br>Minima velit, iure odio, repellendus ex, assumenda dolor corporis veniam voluptas rem tempore. Cum, qui. Minima laborum dolor, autem ex, hic quo est nisi nostrum quas dicta doloremque officia aspernatur?<br><br>Provident blanditiis non ipsa natus beatae neque, reiciendis vel ullam libero repellendus, at voluptatibus aliquid perspiciatis. Quia cumque iste nemo, nihil ipsam facilis consequuntur molestiae exercitationem ipsa consectetur unde eos?</p>",
+    "technologiesUsed": ["React", "Redux"],
+    "liveVersionLink": "#"
+
+  },
+  {
+    "id": 2,
+    "image": "../images/SVG/Asset2.svg",
+    "projectImage": "./images/dopefolio.jpg",
+    "title": "Card 3 Title",
+    "description": "Card 1 Description",
+    "longDescription":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae minus ipsum, a ea soluta non eveniet voluptate porro, debitis eaque numquam, excepturi qui optio accusamus provident consequatur. Eius, error amet.<br><br>Tenetur, molestias? Corporis doloremque atque, aliquid sed enim quaerat veritatis, laboriosam accusamus rerum esse aperiam officiis quia ipsa error vitae veniam id? Mollitia minus accusantium voluptas aliquid fugiat modi reprehenderit!<br><br>Minima velit, iure odio, repellendus ex, assumenda dolor corporis veniam voluptas rem tempore. Cum, qui. Minima laborum dolor, autem ex, hic quo est nisi nostrum quas dicta doloremque officia aspernatur?<br><br>Provident blanditiis non ipsa natus beatae neque, reiciendis vel ullam libero repellendus, at voluptatibus aliquid perspiciatis. Quia cumque iste nemo, nihil ipsam facilis consequuntur molestiae exercitationem ipsa consectetur unde eos?",
+    "technologiesUsed": ["React", "Redux"],
+    "liveVersionLink": "#"
+
+  },
+  {
+    "id": 3,
+    "image": "../images/SVG/Asset2.svg",
+    "projectImage": "./images/dopefolio.jpg",
+    "title": "Card 4 Title",
+    "description": "Card 2 Description",
+    "longDescription":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae minus ipsum, a ea soluta non eveniet voluptate porro, debitis eaque numquam, excepturi qui optio accusamus provident consequatur. Eius, error amet.<br><br>Tenetur, molestias? Corporis doloremque atque, aliquid sed enim quaerat veritatis, laboriosam accusamus rerum esse aperiam officiis quia ipsa error vitae veniam id? Mollitia minus accusantium voluptas aliquid fugiat modi reprehenderit!<br><br>Minima velit, iure odio, repellendus ex, assumenda dolor corporis veniam voluptas rem tempore. Cum, qui. Minima laborum dolor, autem ex, hic quo est nisi nostrum quas dicta doloremque officia aspernatur?<br><br>Provident blanditiis non ipsa natus beatae neque, reiciendis vel ullam libero repellendus, at voluptatibus aliquid perspiciatis. Quia cumque iste nemo, nihil ipsam facilis consequuntur molestiae exercitationem ipsa consectetur unde eos?",
+    "technologiesUsed": ["React", "Redux"],
+    "liveVersionLink": "#"
+
+  },
+  {
+    "id": 4,
+    "image": "../images/SVG/Asset2.svg",
+    "projectImage": "./images/dopefolio.jpg",
+    "title": "Card 5 Title",
+    "description": "Card 1 Description",
+    "longDescription":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae minus ipsum, a ea soluta non eveniet voluptate porro, debitis eaque numquam, excepturi qui optio accusamus provident consequatur. Eius, error amet.<br><br>Tenetur, molestias? Corporis doloremque atque, aliquid sed enim quaerat veritatis, laboriosam accusamus rerum esse aperiam officiis quia ipsa error vitae veniam id? Mollitia minus accusantium voluptas aliquid fugiat modi reprehenderit!<br><br>Minima velit, iure odio, repellendus ex, assumenda dolor corporis veniam voluptas rem tempore. Cum, qui. Minima laborum dolor, autem ex, hic quo est nisi nostrum quas dicta doloremque officia aspernatur?<br><br>Provident blanditiis non ipsa natus beatae neque, reiciendis vel ullam libero repellendus, at voluptatibus aliquid perspiciatis. Quia cumque iste nemo, nihil ipsam facilis consequuntur molestiae exercitationem ipsa consectetur unde eos?",
+    "technologiesUsed": ["React", "Redux"],
+    "liveVersionLink": "#"
+
+  },
+  {
+    "id": 5,
+    "image": "../images/SVG/Asset2.svg",
+    "projectImage": "./images/dopefolio.jpg",
+    "title": "Card 6 Title",
+    "description": "Card 2 Description",
+    "longDescription":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae minus ipsum, a ea soluta non eveniet voluptate porro, debitis eaque numquam, excepturi qui optio accusamus provident consequatur. Eius, error amet.<br><br>Tenetur, molestias? Corporis doloremque atque, aliquid sed enim quaerat veritatis, laboriosam accusamus rerum esse aperiam officiis quia ipsa error vitae veniam id? Mollitia minus accusantium voluptas aliquid fugiat modi reprehenderit!<br><br>Minima velit, iure odio, repellendus ex, assumenda dolor corporis veniam voluptas rem tempore. Cum, qui. Minima laborum dolor, autem ex, hic quo est nisi nostrum quas dicta doloremque officia aspernatur?<br><br>Provident blanditiis non ipsa natus beatae neque, reiciendis vel ullam libero repellendus, at voluptatibus aliquid perspiciatis. Quia cumque iste nemo, nihil ipsam facilis consequuntur molestiae exercitationem ipsa consectetur unde eos?",
+    "technologiesUsed": ["React", "Redux"],
+    "liveVersionLink": "#"
+
+  }
+]

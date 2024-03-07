@@ -1,0 +1,55 @@
+#containerImage img {
+    width: 65%;
+    margin: 5rem 0rem 0rem 18%;
+}
+
+#containerDesc {
+    width: 60%;
+    text-align: left;
+    margin-left: 20%;
+    /* height: 80vh; */
+    margin-top: 10rem;
+}
+
+#containerDesc h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+#containerDesc p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    opacity: 1;
+    font-size: 1.5rem;
+}
+
+#technologiesUsedContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    scale:0.8;
+}
+
+.technology {
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    background: rgb(122, 122, 206);
+    color: white;
+    border-radius: 10px;
+    padding: .2em 2em;
+    /* width: 5rem; */
+    margin: 1rem;
+}
+.home2{
+    background-image: url(../images/4403214_18410.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}

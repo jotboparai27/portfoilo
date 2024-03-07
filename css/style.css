@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+/* main {
+            margin: 0px 5rem; 
+         border: 1px solid black;
+        } */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    position: sticky;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+nav ul li {
+    list-style: none;
+    padding: .2em 2em;
+    font-size: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    color: black;
+    transition: all 1s;
+}
+
+nav ul li a:hover {
+    color: rgb(122, 122, 206);
+    text-decoration: underline;
+}
+
+#logo {
+    width: 10rem;
+    margin: 5px 5rem;
+}
+
+
+#home {
+    text-align: center;
+    padding: 5rem 0rem;
+    height: 80vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../images/4403214_18410.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* opacity: 0.4; */
+}
+
+#home video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensure the video covers the entire section */
+    z-index: -1;
+    filter: brightness(.9) contrast(99%);
+}
+
+#home p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    opacity: 1;
+    font-size: 1.5rem;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10rem;
+}
+
+#home h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 5rem;
+
+}
+
+#project_btn {
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    background: rgb(122, 122, 206);
+    color: white;
+    border-radius: 10px;
+    padding: .2em 2em;
+}
+
+#about {
+
+    text-align: center;
+    /* background: rgba(0, 0, 0, 0.058); */
+    margin-top: -60px;
+}
+
+#about h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 4.5rem;
+    text-decoration: underline;
+}
+
+.info {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    opacity: 1;
+    font-size: 1.5rem;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 5rem;
+}
+
+#know_more {
+    text-align: left;
+    width: 40%;
+    padding: 0rem 5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+#skills {
+    width: 40%;
+}
+
+#sub_section_about {
+    display: flex;
+    align-items: center;
+}
+
+#project {
+    background: rgba(0, 0, 0, 0.029);
+    /* background: rgba(0, 0, 0, 0.058); */
+
+    /* height: 100vh; */
+    text-align: center;
+    margin-top: -60px;
+}
+
+#project h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 4.5rem;
+    text-decoration: underline;
+}
+
+#main_card_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 5%;
+    width: 90%;
+}
+
+.card {
+    margin: 2rem;
+    width: 20rem;
+    height: 30rem;
+    content: "";
+    border: 1px solid black;
+    overflow: hidden;
+    padding: 2rem;
+    box-shadow: 0 0 4px 0 #ccc;
+    cursor: pointer;
+}
+
+#contact {
+    margin-top: -60px;
+    background-image: url(../images/4403214_18410.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#contact h1 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 4.5rem;
+    text-decoration: underline;
+}
+
+#contact form {
+    margin-left: 20%;
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 0rem 5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 5rem;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.246);
+    margin-bottom: 2rem;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.053);
+    border: 0px solid transparent;
+    margin-bottom: 2rem;
+}
+
+textarea {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.053);
+    border: 0px solid transparent;
+}
+
+button {
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    background: rgb(122, 122, 206);
+    color: white;
+    border-radius: 10px;
+    padding: .2em 2em;
+    text-align: center;
+    margin: 2rem;
+}
+
+.info2 {
+    margin-left: 20%;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+
+    /* Navigation Styles for Mobile */
+    nav {
+        justify-content: center;
+        margin-right: 0;
+        position: absolute;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        padding: 1em 0;
+    }
+
+    /* Header (home) Styles for Mobile */
+    #home h1 {
+        font-size: 3rem;
+    }
+
+    #home p {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+    }
+
+    #logo {
+        margin: 5px 0px;
+    }
+
+    #project_btn {
+        font-size: 1.5rem;
+    }
+
+    /* About Section Styles for Mobile */
+    #about h1 {
+        font-size: 3rem;
+    }
+
+    .info {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 3rem;
+    }
+
+    #know_more {
+        width: 90%;
+        padding: 0 5%;
+    }
+
+    #sub_section_about {
+        flex-direction: column;
+    }
+
+    #skills {
+        width: 90%;
+        margin: 2rem 5%;
+    }
+
+    /* Project Section Styles for Mobile */
+    #project h1 {
+        font-size: 3rem;
+    }
+
+    #main_card_div {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .card {
+        width: 90%;
+        margin: 2rem 5%;
+    }
+
+    /* Contact Section Styles for Mobile */
+    #contact h1 {
+        font-size: 3rem;
+    }
+
+    #contact form {
+        margin-left: 0%;
+        width: 90%;
+        padding: 2rem;
+    }
+
+    input,
+    textarea {
+        height: 40px;
+    }
+
+    button {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .info2 {
+        margin-left: 5%;
+    }
+}
+
+/* Add this CSS for the mobile menu */
+#mobile-menu {
+    display: none;
+}
+
+#mobile-menu-btn {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media li:last-child {
+    margin-right: 0;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-media a:hover {
+    color: #ccc;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #home {
+        height: auto;
+        background-image: url(../images/4403214_18410.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #home video {
+        display: none;
+    }
+#logo{
+    width: 7rem;
+    margin:2rem;
+}
+    nav {
+        background-color: white;
+        z-index: 3;
+    }
+
+    #normal_nav {
+        display: none;
+    }
+
+    #mobile-menu {
+        display: block;
+        text-align: center;
+        background-color: white;
+        position: absolute;
+        top: 5rem;
+        /* Adjust as needed */
+        left: 16rem;
+        width: 100%;
+        z-index: 1;
+    }
+
+    #mobile-menu ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    #mobile-menu li {
+        padding: 1em 0;
+    }
+
+    #mobile-menu a {
+        text-decoration: none;
+        color: black;
+        font-family: "Oswald", sans-serif;
+        font-weight: 900;
+        font-size: 1.2rem;
+    }
+
+    #mobile-menu-btn {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        left: 16rem;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-media {
+        margin-top: 10px;
+    }
+}
